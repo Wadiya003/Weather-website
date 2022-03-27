@@ -1,0 +1,125 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,900,300);
+body {
+  width: 100%;
+  height: 100%;
+  /* background-color: #263238; */
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  color: #fff;
+}
+
+.widget-container {
+  width:590px;
+  height: 360px;
+  display: block;
+  /* background-image :url('https://th.bing.com/th/id/R.dafb7dde354a14394966ad96d93bd22e?rik=5FB%2bgpYnziTrrQ&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f07%2fWeather-Wallpaper.jpg&ehk=Hir9h5q4PNuh0T887Ec6Kxc3Vq1Ag43MZ6slmmxuf9s%3d&risl=&pid=ImgRaw&r=0'); */
+  border-radius: 25px;
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+
+}
+
+
+
+.top-left {
+  height: 69%;
+  width: 60%;
+  padding: 55px 0 0 70px;
+  display: inline-block;
+}
+
+.top-right {
+  height: 69%;
+  width: 40%;
+  float: right;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+
+#city {
+  font-weight: 900;
+  font-size: 25px;
+}
+
+
+#date {
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 4px;
+}
+ 
+.key
+{
+  font-size: 16px;
+  font-weight: 300;
+  margin-left: 15px;
+  float: left;
+}
+
+.val{
+  font-size: 16px;
+  font-weight: 400;
+  float: right;
+  margin-right: 20px;
+}
+#temperature,
+#celsius,
+#temp-divider
+ {
+  display: inline;
+  vertical-align: middle;
+}
+
+#temperature {
+  font-size: 60px;
+  font-weight: 800;
+  margin-right: 5px;
+}
+
+#celsius {
+  margin-right: 10px;
+}
+
+
+.top-right > img {
+  width: 120px;
+  height: 120px;
+  display: block;
+  margin: 15px auto 0 auto;
+  
+}
+
+.errors{
+  font-size: 20px;
+  color: rgb(250, 58, 24);
+  font-weight: 600;
+  margin-right: 30px;
+  float:right;
+}
+/* Horizontal-Half-divider */
+
+.horizontal-half-divider {
+  width: 100%;
+  height: 3px;
+  margin-top: -5px;
+  background-color: white;
+}
+
+.vertical-half-divider {
+  width: 3px;
+  position: absolute;
+  height: 245px;
+  background-color: white;
+  display: inline-block;
+  padding: 0;
+}
+
